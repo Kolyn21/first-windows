@@ -1,0 +1,36 @@
+p, blockquote {
+	color: red;
+}
+
+.feature { 
+	color: black; 
+}
+
+#footer { color: #333333;
+	font-size: .75em;
+	font-style: italic;
+}
+
+/* коментарий */
+body { background-color: #99cccc;
+	background: url("../assets/jpg/background.jpg") ; 
+}
+/* background: url("../images/fon-site.jpg") center no-repeat; */
+
+form { background-color:#eaeaea;
+	font-family: Arial, sans-serif;
+	width: 350px;
+	padding: 10px; }
+	label { float: left;
+		width: 100px;
+		display: block;
+		clear: left;
+		text-align: right;
+		padding-right: 10px;
+		Глава 9
+		386
+		margin-top: 10px; }
+		input, textarea { margin-top: 10px;
+			display: block;}
+			#mySubmit { margin-left: 110px; }
+

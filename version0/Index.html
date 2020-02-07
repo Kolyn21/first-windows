@@ -1,0 +1,215 @@
+<!DOCTYPE HTML >
+<HTML lang="en">
+<head>
+	<title>Моя первая HTML 5-веб-страница</title>
+	<meta charset="utf-8">
+	<style>
+		p {
+			text-align: justify
+		}
+	</style>
+	<link rel="icon" href="assets/jpg/icons.png" type="image/xicon">
+	<link rel="stylesheet" type="text/css" href="assets/css.css">
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+	<script type="text/javascript">
+        // Создает обработчик события window.onLoad
+        YMaps.jQuery(function () {
+            // Создает экземпляр карты и привязывает его к созданному контейнеру
+            var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+            // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+            map.setCenter(new YMaps.GeoPoint(37.64, 55.76), 10);
+        })
+    </script>
+</head>
+<body>
+	<h1>Основы разметки веб-страниц
+	61</h1>
+	<p>Привет, мир!</p>
+	<p>Во время тестирования веб-страниц вы могли заметить, что заго-
+		ловки и текст начинаются от левой границы. Это называется вырав-
+		ниванием по левому краю и является выравниванием по умолчанию
+		для веб-страниц. Иногда вы захотите выровнять абзац текста или заго-
+		ловок по центру или по правому краю (по ширине). Для этого можно
+		использовать атрибут align . Цель атрибута — в изменении свойств
+		HTML- элементов. В данном случае атрибут align меняет горизон-
+		Основы разметки веб-страницВо время тестирования веб-страниц вы могли заметить, что заго-
+		ловки и текст начинаются от левой границы. Это называется вырав-
+		ниванием по левому краю и является выравниванием по умолчанию
+		для веб-страниц. Иногда вы захотите выровнять абзац текста или заго-
+		ловок по центру или по правому краю (по ширине). Для этого можно
+		использовать атрибут align . Цель атрибута — в изменении свойств
+		HTML- элементов. В данном случае атрибут align меняет горизон-
+		Основы разметки веб-страниц
+		67
+		<br>
+		<blockquote>
+			<abbr>выравнивание</abbr> выравнивание элемента (левое, по центру или правое) на веб-
+			странице. Чтобы выровнять элемент по центру, используйте атрибут со
+			значением align="center".
+			Чтобы выровнять элемент по правому краю веб-страницы, исполь-
+			зуйте align="right".
+			<strong>
+				<ul>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+				</ul>
+			</strong>
+			<strong>
+				<ol>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+					<li>По умолчанию выравнивание установлено</li>
+				</ol>
+			</strong>
+			<br>
+			<li class="feature">Оценка использования сайта</li>
+			<br>
+			<div id="footer">Этот абзац будет визуализироваться
+			с использованием стиля идентификатора footer</div>
+			<br>
+
+			<hr>
+			<img src="assets/jpg/logo.jpg" height="200" width="500"
+			alt="Название моей компании">
+			<a href="https://rg.ru/2019/09/10/volkswagen-smenil-logotip-i-zagovoril-zhenskim-golosom.html"><img src="assets/jpg/logo.jpg"
+				height="40" width="40" alt="Главная"></a>
+
+				<hr>
+				<h1>Ежемесячный отчет</h1>
+				<meter value="14417" min="0" max="14417">14417</meter>14,417 Всего посещений<br>
+				<meter value="7000" min="0" max="14417">7000</meter> 7,000 Firefox<br>
+				<meter value="3800" min="0" max="14417">3800</meter> 3,800 Internet Explorer<br>
+				<meter value="2062" min="0" max="14417">2062</meter> 2,062 Chrome<br>
+				<meter value="1043" min="0" max="14417">1043</meter> 1,043 Safari<br>
+				<meter value="312" min="0" max="14417">312</meter>
+				&nbsp;&nbsp; 312 Opera<br>
+				<meter value="200" min="0" max="14417">200</meter>
+				&nbsp;&nbsp; 200 прочие<br>
+				<hr>
+				<h1>Отчет о результатах</h1>
+				<progress value="5000" max="10000">5000</progress>
+				Результат продвижения к цели
+				<hr>
+
+				<map name="boat" id="boat">
+					<area href=" http://www.doorcountyvacations.com " shape="rect" coords="24, 188, 339, 283" alt="Рыбалка в графстве До">
+				</map>
+				<hr>
+				левому краю. Атрибут align может использоваться для множества
+				блочных элементов, в том числе абзаца (p) и заголовка (от h1 до h6).
+				Атрибут выравнивания не применяется в версии HTML 5. ЭтоВо время тестирования веб-страниц вы могли заметить, что заго-
+				<a href="https://news.mail.ru/politics/40470757/?frommail=1">Mail.ru</a>
+				ловки и текст начинаются от левой границы. Это называется вырав-
+				ниванием по левому краю и является выравниванием по умолчанию
+				для веб-страниц. Иногда вы захотите выровнять абзац текста или заго-
+				ловок по центру или по правому краю (по ширине).<cite>https://news.mail.ru/politics/40470757/?frommail=1</cite> Для этого можно
+				использовать атрибут align . Цель атрибута — в изменении свойств
+				HTML- элементов. В данном случае атрибут align меняет горизон-
+			Основы разметки веб-страниц</blockquote>
+			<div><small>Авторские права &copy; 2012 Это место для
+			вашего имени</small></div>
+			<div id="YMapsID" style="width:600px;height:400px"></div>
+			<fieldset>
+				<legend>Адрес доставки</legend>
+				<label>Улица, дом, квартира: <input type="text"	name="street" id="street" size="55"></label><br><br>
+				<label>Город: <input type="text" name="city"
+					id="city">
+				</label>
+				<label>Область: <input type="text" name="reg" id="reg" maxlength="20" size="20">
+				</label>
+				<label>Индекс: <input type="text" name="zip" id="zip" maxlength="7" size="7">
+				</label>
+			</fieldset>
+
+			<form method="post">
+				<table border="0">
+					<tr>
+						<td align="right">Имя:</td>
+						<td><input type="text" name="fmail" id="fmail"></td>
+					</tr>
+					<tr>
+						<td align="right">Фамилия:</td>
+						<td><input type="text" name="lmail" id="lmail"></td>
+					</tr>
+					<tr>
+						<td align="right">Адрес e-mail:</td>
+						<td><input type="text" name="email" id="email"></td>
+					</tr>
+					<tr>
+						<td align="right" valign="top">Комментарий:</td>
+						<td><textarea name="comments" id="comments"
+							rows="4" cols="40" ></textarea></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td><input type="submit" value="Отправить"> &nbsp;
+								<input type="reset" value="Сбросить"></td>
+							</tr>
+						</table>
+					</form>
+					<form>
+						<label for="myName">Имя:</label>
+						<input type="text" name="myName" id="myName">
+						<label for="myEmail">Адрес e-mail:</label>
+						<input type="text" name="myEmail" id="myEmail">
+						<label for="myComments">Комментарий:</label>
+						<textarea name="myComments" id="myComments"
+						rows="2" cols="20"></textarea>
+						<input id="mySubmit" type="submit"
+						value="Отправить">
+					</form>
+					<form method="get">
+						Любимый цвет: <input type="text" name="color"
+						id="color" list="colors">
+						<datalist id="colors">
+							<option value="красный">
+								<option value="зеленый">
+									<option value="синий">
+										<option value="желтый">
+											<option value="розовый">
+												<option value="черный">
+												</datalist>
+												<input type="submit" value="Отправить"> <input
+												type="reset" value="Сбросить">
+											</form>
+											<form method="get">
+												<label for="myChoice">Выберите число в диапазоне от 1 до 100:</label><br> Меньше <input type="range"name="myChoice" id="myChoice"> Больше <br><br>
+												<input type="submit" value="Отправить"> 
+												<input type="reset" value="Сбросить">
+											</form>
+
+											<form method="get">
+												<label for="myChoice">Выберите число в диапазоне от
+												1 до 10:</label>
+												<input type="number" name="myChoice" id="myChoice"
+												min="1" max="10"> <br><br>
+												<input type="submit" value="Отправить"> <input
+												type="reset" value="Сбросить">
+											</form>
+
+											<form method="get">
+												<label for="myDate">Выберите дату</label>
+												<input type="date" name="myDate" id="myDate">
+												<br><br>
+
+												<input type="submit" value="Далее">
+											</form>
+											<form method="get">
+												<label for="myColor">Выберите цвет:</label>
+												<input type="color" name="myColor" id="myColor">
+												<br><br>
+												<input type="submit" value="Отправить"> <input
+												type="reset" value="Сбросить">
+											</form>
+											<audio controls="controls">
+												<source src="soundloop.mp3" type="audio/mpeg">
+													<source src="soundloop.ogg" type="audio/ogg">
+														<a href="soundloop.mp3">Загрузить аудио-файл</a> (MP3)
+													</audio>
+												</p>
+											</body>
+										</HTML >
